@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+   background-image: url("../images/81303204-77be-41f2-92bd-68c5313a8439.jpg");
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+}
+
+#logo{
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.navigation{
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.navigation a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    border:1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    margin:5px;
+    transition: background-color 0.5s ease; /* Fix the transition property */
+}
+.navigation a:hover{
+    background-color: teal;
+    color:black;
+}
+.side {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 100px 20px; /* Adjust margin */
+    width: 200px; /* Adjust width as needed */
+    float: left;
+    white-space: nowrap;
+}
+
+
+.side h3{
+    margin-bottom: 15px;
+}
+
+.side li{
+    padding: 2px;
+    list-style-type: square;
+}
+.login-form {
+    border: 1px solid red;
+    background-color: beige;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    height: 16em;
+    padding: 20px;
+}
+
+.login-form h2{
+    text-align: center;
+}
+#login{
+    background-color: dodgerblue;
+    width: 100%;
+    color: white;
+    height: 1.5em;
+    border: none;
+}
+.container{
+    margin-top: 450px;
+    margin-left: 60px;
+}
+.p-box{
+    float:left;
+    border:3px solid white;
+    width:22%;
+    margin-left:5px;
+    padding:5px;
+    background-color:gainsboro;
+    height:13em;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 1.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
